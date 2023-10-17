@@ -1,0 +1,14 @@
+.greetings {
+  text-align: center;
+}
+
+.contenedorList {
+  width: 95%;
+  height: 3000px;
+  border: solid 2px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: rgb(179, 234, 179);
+}
