@@ -1,26 +1,23 @@
-import ItemDetailConteiner from "./Components/itemDetailConteiner/ItemDetailConteiner";
-import { ItemListContainer } from "./Components/ItemListContainer/ItemListContainer";
-import { NavBar } from "./Components/NavBar/NavBar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Nosotros } from "./Componentes/nosotros/Nosotros";
+import { ItemDetailConteiner } from "./Componentes/ItemDetailConteiner/ItemDetailConteiner";
+import ItemListConteiner from "./Componentes/ItemListContainer/ItemListConteiner";
+import NavBar from "./Componentes/NavBar/NavBar";
 
 function App() {
   return (
     <div>
-      <>
-        <BrowserRouter>
-          <NavBar />
-          <ItemListContainer greetings={"bienvenidos a la web de la Black"} />
-          <Routes>
-            <Route path="/" element={<ItemListContainer />} />
-            <Route
-              path="/categoria/:idCategoria"
-              element={<ItemListContainer />}
-            />
-            <Route path="/item/:idItem" element={<ItemDetailConteiner />} />
-            <Route path="*" element={<h2>Sitio en construcción</h2>} />
-          </Routes>
-        </BrowserRouter>
-      </>
+      <BrowserRouter>
+        <NavBar />
+
+        <Routes>
+          <Route path="/" element={<ItemListConteiner />} />
+          <Route path="/productos" element={<ItemListConteiner />} />
+          <Route path="/item/:id" element={<ItemDetailConteiner />} />
+          <Route path="/productos/:categoria" element={<ItemListConteiner />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

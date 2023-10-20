@@ -1,0 +1,9 @@
+.contenedorCardItem {
+  border: 3px blue solid;
+  display: flex;
+  margin: 15px;
+  background-color: pink;
+  width: 250px;
+  height: 250px;
+  gap: 15px;
+}

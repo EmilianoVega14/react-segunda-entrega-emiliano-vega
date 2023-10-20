@@ -1,0 +1,7 @@
+.cardwidget {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  gap: 10px;
+  margin-right: 20px;
+}
