@@ -1,13 +1,12 @@
-import "./NavBar.css";
 import { Link } from "react-router-dom";
 import { CardWidget } from "../CardWidget/CardWidget";
 
 export const NavBar = () => {
   return (
-    <header className="contenedorNavBar">
-      <a href="/">
-        <h1>Black Mamba Grow Shop</h1>
-      </a>
+    <nav className="contenedorNavBar">
+      <Link to={"/"}>
+        <img src="../imagenes/logo-bm.jpg" alt="logo-bm" />
+      </Link>
 
       <ul className="navBar_Items">
         <li>
@@ -23,11 +22,11 @@ export const NavBar = () => {
           <Link to={"/productos/tabacos"}>Tabacos</Link>
         </li>
         <li>
-          <Link to={"/nosotros"}>Nosotros</Link>
+          <Link to={"/nosotros"}>Quienes Somos</Link>
         </li>
         <CardWidget />
       </ul>
-    </header>
+    </nav>
   );
 };
 

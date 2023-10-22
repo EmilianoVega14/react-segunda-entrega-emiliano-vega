@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+/* ------------ NAVBAR ------------ */
+
+.contenedorNavBar {
+  background-color: #619136;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+  height: 100%;
+  border-radius: 15px;
+}
+.contenedorNavBar a img {
+  height: 70px;
+}
+
+.navBar_Items {
+  width: 45%;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar_Items li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navBar_Items li a:hover {
+  font-size: 21px;
+  transition: all 0.5s ease-out;
+}
+/* ------------ ITEM ------------ */
+
+.container {
+  max-width: 1200px;
+  border: purple 1px solid;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.container h2 {
+  font-size: 2rem;
+}
+
+.itemList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding-block: 2rem;
+
+  align-items: center;
+}
+
+.contenedorPadreItem {
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  width: 14.5rem;
+  border: rgb(216, 215, 215) solid 1.5px;
+  border-radius: 15px;
+}
+.contenedorPadreItem img {
+  width: 230px;
+  height: 100px;
+}
+.contenedorPadreItem img:hover {
+  transition: all 0.5s ease-out;
+  width: 230px;
+  height: 143px;
+  border-radius: 10px 0 0 0px;
+}
+
+.contenedorInformacionItem {
+  display: flex;
+  flex-direction: column;
+  width: 200;
+  height: 200;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 15px;
+  flex-wrap: nowrap;
+  border-radius: 15px;
+
+  margin-left: 5px;
+}
+
+.contenedorInformacionItem a {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgb(105, 180, 105);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.contenedorInformacionItem a:hover {
+  background-color: white;
+  color: rgb(105, 180, 105);
+  border: 1.5px solid rgb(105, 180, 105);
+  transition: all 0.5s ease-out;
+}

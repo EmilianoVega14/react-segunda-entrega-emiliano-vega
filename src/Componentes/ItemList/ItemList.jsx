@@ -4,10 +4,10 @@ import Item from "../Item/Item";
 
 export const ItemList = ({ productos, titulo }) => {
   return (
-    <div>
-      <h2> {titulo}</h2>
+    <div className="container">
+      <h2>{titulo}</h2>
 
-      <div>
+      <div className="itemList">
         {productos.map((prod) => (
           <Item productos={prod} key={prod.id} />
         ))}
