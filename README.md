@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Black Mamba Grow Shop Cordoba - Argentina
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es la página oficial de "Black Mamba", un grow shop ubicado en barrio General Paz en la Ciudad de Córdoba - Argentina. En esta página vas a encontrar todo lo referido al Grow. Noticias, publicaciones y además vas a poder ver y comprar todos los productos desde cualquier dispositivo electrónico con acceso a internet.
+Tanto los productos que agregamos, como las ordenas de compra que recibiremos estan almacenadas en Firebase.
 
-## Available Scripts
+## Utilicé las siguientes tecnologias para su desarrollo:
 
-In the project directory, you can run:
+1. Vite
+2. React
+3. React Router
+4. Firebase
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Vas a poder ver todos los productos que estan en venta en la tienda, directamente desde nuestra tienda online.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Vas a poder ver y seleccionar los productos que quieres comprar directamente desde nuestra web y agregarlos a tu carrito de compra. Una vez que hayas seleccionado tus productos, deberas completar un formulario con informacion personal y al finalizar tu compra, vas a acceder a tu ID de compra. Una vez que tengas tu ID nos pondremos en contacto contigo para definir los detalles de formas de entrega y formas de pago.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Encontrarás toda la información pertinente a la tienda, ubicaciones, teléfono, formulario de contacto y publicaciones adicionales a las que realizamos por redes sociales.

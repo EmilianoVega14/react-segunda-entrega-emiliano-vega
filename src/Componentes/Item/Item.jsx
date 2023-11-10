@@ -7,12 +7,10 @@ export const Item = ({ productos }) => {
       <img src={productos.img} alt={productos.nombre} />
 
       <div className="contenedorInformacionItem">
-        <h4>{productos.nombre}</h4>
-        <p> ARG ${productos.precio}</p>
-        <p>
-          ID Producto: <strong>{productos.id}</strong>
-        </p>
-        <p>{productos.categoria}</p>
+        <h5>{productos.nombre}</h5>
+        <p className="precio">${productos.precio}</p>
+        <p>#{productos.id}</p>
+
         <Link to={`/item/${productos.id}`}> Ver Más </Link>
       </div>
     </div>
